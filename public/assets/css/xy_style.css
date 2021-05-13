@@ -1,0 +1,223 @@
+@charset "utf-8";
+/*
+
+html,
+body {
+	height: 100%;
+}
+
+.header {
+	height: 59px;
+	border-bottom: 1px solid #404553;
+	background-color: #393D49;
+}
+
+.layui-container .title {
+	left: 15px;
+}
+
+.title {
+	position: absolute;
+	left: 0;
+	top: 16px;
+}
+
+.title h1 {
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+.header .layui-container .layui-nav {
+	right: 15px;
+}
+
+.header .layui-nav {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0;
+	background: none;
+}
+
+.header .layui-nav .layui-nav-item {
+	margin: 0 20px;
+}
+
+
+.layui-nav .layui-this:after,
+.layui-nav .layui-nav-bar {
+	background-color: #1e9fff;
+}
+
+.layui-nav .layui-nav-child a:hover {
+	background-color: #F6F6F6;
+	color: #1e9fff;
+}
+
+.site-content {
+	padding-top: 20px;
+}
+
+.login-main {
+	text-align: center;
+}
+
+.user-img img {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #999;
+	border-radius: 50%;
+}
+
+.login-main .login-log {
+	font-size: 14px;
+	padding: 5px;
+	font-weight: 400;
+}
+
+.login-main .login-btn {
+	padding-top: 8px;
+}
+
+.login-main .qrimg {
+	padding: 15px;
+}
+
+.login-main .layui-form-item {
+	margin-bottom: 0;
+}
+
+.uinlist {
+	padding: 20px;
+	border: 1px solid #eee;
+	position: relative;
+	margin: 15px;
+}
+
+.uinlist .site-content {
+	padding-top: 0;
+}
+
+.layui-form-select dl dd.layui-this {
+	background-color: #393d49;
+	color: #fff;
+}
+
+.login-log {
+	position: relative;
+	font-size: .24rem;
+	color: #999999;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+
+.login-log:before {
+	content: "";
+	position: absolute;
+	width: 30%;
+	height: 1px;
+	top: 50%;
+	background-color: #ededed;
+	left: 10%;
+}
+
+.login-log:after {
+	content: "";
+	position: absolute;
+	width: 30%;
+	height: 1px;
+	top: 50%;
+	background-color: #ededed;
+	right: 10%;
+}
+
+td {
+	width: 100%;
+	word-break: keep-all;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.rane-fun {
+	text-align: left;
+}
+
+.text-title {
+	margin: 30px 0 20px;
+}
+
+.text-title fieldset {
+	border: none;
+	padding: 0;
+	border-top: 1px solid #eee;
+}
+
+.text-title fieldset legend {
+	margin-left: 20px;
+	padding: 0 10px;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.rane-log {
+	padding-top: 30px;
+}
+
+.fun-title {
+	padding: 8px 10px;
+}
+
+.fun-row {
+	padding: 0 10px 10px;
+}
+
+.fun-btn {
+	padding: 10px;
+	text-align: center;
+}
+
+.layui-form-radio:hover *,
+.layui-form-radioed,
+.layui-form-radioed>i {
+	color: #1e9fff;
+}
+
+.footer {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 15px 0;
+	line-height: 30px;
+	text-align: center;
+	color: #666;
+	font-weight: 300;
+}
+
+.footer a {
+	padding: 0 5px;
+}
+
+@media screen and (max-width: 992px) {
+
+	.title,
+	.layui-container .title {
+		left: 10px;
+	}
+
+	.header .layui-nav .layui-nav-item {
+		margin: 0;
+	}
+
+	.login-log:before {
+		left: 1%;
+		width: 20%;
+	}
+
+	.login-log:after {
+		right: 1%;
+		width: 20%;
+	}
+}
